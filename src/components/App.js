@@ -31,6 +31,7 @@ function App() {
           <>
             <h1>Game Over</h1>
             <h2>Total Correct: {score}</h2>
+            <h2>{(score * 100/6).toFixed(2)}%</h2>
           </>
         )}
       </section>
